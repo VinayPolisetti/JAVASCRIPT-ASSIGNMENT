@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type-="text/css">
+        h1 {
+            width: fit-content;
+            margin : 0px auto 0px auto;
+            font-weight: 900;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:gold;
+            width: fit-content;
+            padding: 10px;
+            background-color:antiquewhite;
+        }
+        .sp {
+            font-family: fantasy;
+            padding: 10px;
+            width: fit-content;
+            margin:0px auto 0px auto;
+            background-color: darkseagreen;
+        }
+        form {
+            width: fit-content;
+            margin : 0px auto 0px auto;
+        }
+        #sd {
+            background-image: url('https://media0.giphy.com/headers/anthonyantonellis/SqsFmi8lZMtI.gif');
+        }
+    </style>
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <br />
+    <br />
+    <br />
+    <h1>NUMBER GUESSING GAME</h1>
+    <br />
+    <br />
+    <div class="fit">
+        <p class="sp">Try and guess a random number between 1 and 100</p>
+        <br />
+        <p class="sp">Every User gets 5 Attempts to guess the Number</p>
+        </br>
+        <div>
+            <form>
+                <label for="guessField">Enter your Guess here</label>
+                <input type="text" id="guessField" />
+                <input type="button" value="Submit" id="subt" />
+            </form>
+            <br />
+            <br />
+            <div class="sp" id="sd" style="border-radius: 25px;">
+                <p>Guesses Remaining: <span class="lastResult" id="left">5</span></p>
+            </div>
+            <br />
+            <br />
+            <p id="lowOrHi" style="font-family: fantasy;padding: 10px;width: fit-content;margin:0px auto 0px auto;background-image: url('http://37.media.tumblr.com/6e6a30b8b3d9b824dd93b7e1a5f73fc5/tumblr_n6nsynhUji1szvn9ko1_500.gif');text-align: center;">Your Hints appear here</p>
+            <br />
+            <p id="winlose" style="font-family: fantasy;padding: 10px;width: fit-content;margin:0px auto 0px auto;background-image: url('http://37.media.tumblr.com/6e6a30b8b3d9b824dd93b7e1a5f73fc5/tumblr_n6nsynhUji1szvn9ko1_500.gif');text-align: center;">Game is in progress</p>
+        </div>
+    </div>
+    <script src="test1.js" type="text/javascript"></script>
+</body>
+</html>

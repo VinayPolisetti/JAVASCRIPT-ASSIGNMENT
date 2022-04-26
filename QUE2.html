@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+    h1 {
+        width: fit-content;
+        margin : 0px auto 0px auto;
+        font-weight: 900;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:gold;
+        width: fit-content;
+        padding: 10px;
+        background-color:antiquewhite;
+    }
+    #main {
+        position: relative; 
+        height: 500px;
+        width: 75%;
+        border: 2px solid black;
+        margin: 0px auto 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-size : cover;
+    }
+    .sign {
+        position: relative; 
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+        border: 2px solid grey;
+        padding: 5px;
+        box-sizing: border-box;
+        background: white;
+        opacity: 0.5;
+    }
+    .sig{
+        width: 35px;
+        height: 35px;
+    }
+    .sign:hover{
+        background-color:cyan;
+    }
+    </style>
+    <title>JavaScript Image Slider</title>
+</head>
+<body>
+    <br />
+    <br />
+    <h1>Image Slider</h1>
+    <br />
+    <br />
+    <br />
+    <div id="main">
+        <div class="sign"><img id="l" src="https://github.com/JS-Beginners/image-slider-project/blob/main/images/left-arrow.png?raw=true" class="sig"></div>
+        <div class="sign"><img id="r" src="https://github.com/JS-Beginners/image-slider-project/blob/main/images/right-arrow.png?raw=true" class="sig"></div>
+    </div>
+    <script src="test2.js"></script>
+</body>
